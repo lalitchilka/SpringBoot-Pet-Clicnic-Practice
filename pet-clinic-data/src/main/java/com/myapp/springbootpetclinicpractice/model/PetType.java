@@ -1,4 +1,4 @@
-package com.myapp.springbootpetclicnicpractice.model;
+package com.myapp.springbootpetclinicpractice.model;
 
 public class PetType {
 

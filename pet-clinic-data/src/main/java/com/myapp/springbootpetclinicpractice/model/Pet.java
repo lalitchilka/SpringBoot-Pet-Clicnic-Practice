@@ -1,4 +1,4 @@
-package com.myapp.springbootpetclicnicpractice.model;
+package com.myapp.springbootpetclinicpractice.model;
 
 import java.time.LocalDate;
 
