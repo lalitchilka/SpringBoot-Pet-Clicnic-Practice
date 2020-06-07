@@ -35,11 +35,21 @@
                     <goals>install</goals>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.11.2</version>
+                <configuration>
+                    <connectionType>developerConnection</connectionType>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
 
   <scm>
-    <tag>springboot-pet-clicnic-practice-0.0.1</tag>
+      <developerConnection>scm:git:git@gitlab.com:lalitchilka/springboot-pet-clicnic-practice.git</developerConnection>
+      <url>git@gitlab.com:lalitchilka/springboot-pet-clicnic-practice.git</url>
+      <tag>springboot-pet-clinic-practice-0.0.1</tag>
   </scm>
 </project>
