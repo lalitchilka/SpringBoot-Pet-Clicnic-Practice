@@ -4,7 +4,7 @@
 
     <groupId>com.myapp</groupId>
     <artifactId>springboot-pet-clinic-practice</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -47,6 +47,6 @@
 
   <scm>
       <developerConnection>scm:git:git@gitlab.com:lalitchilka/springboot-pet-clicnic-practice.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>springboot-pet-clinic-practice-0.0.3</tag>
   </scm>
 </project>
