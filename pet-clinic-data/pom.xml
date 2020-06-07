@@ -3,12 +3,12 @@
     <parent>
         <artifactId>springboot-pet-clinic-practice</artifactId>
         <groupId>com.myapp</groupId>
-        <version>0.0.4</version>
+        <version>0.0.5-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-data</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.1</version>
 
     <properties>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
