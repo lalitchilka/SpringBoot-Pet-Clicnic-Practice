@@ -5,6 +5,24 @@
     <title>Owner List Page</title>
 </head>
 <body>
+<!--/*@thymesVar id="owner" type="com.myapp.springbootpetclinicpractice.model.Owner"*/-->
     <h1 th:text="'Owner List Page'">Owner List Page...</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner.id}">1</td>
+        <td th:text="${owner.firstName}">Lalit</td>
+        <td th:text="${owner.lastName}">Chilka</td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
