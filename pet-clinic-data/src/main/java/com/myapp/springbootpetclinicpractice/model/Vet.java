@@ -8,16 +8,16 @@ import java.util.Set;
 @Table(name = "vets")
 public class Vet extends Person{
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(name = "vet_specialties", joinColumns = @JoinColumn(name = "vet_id"),
-            inverseJoinColumns = @JoinColumn(name = "specialty_id"))
-    private Set<Specialty> specialties = new HashSet<>();
+            inverseJoinColumns = @JoinColumn(name = "speciality_id"))
+    private Set<Specialty> specialities = new HashSet<>();
 
-    public Set<Specialty> getSpecialties() {
-        return specialties;
+    public Set<Specialty> getSpecialities() {
+        return specialities;
     }
 
-    public void setSpecialties(Set<Specialty> specialties) {
-        this.specialties = specialties;
+    public void setSpecialities(Set<Specialty> specialities) {
+        this.specialities = specialities;
     }
 }
