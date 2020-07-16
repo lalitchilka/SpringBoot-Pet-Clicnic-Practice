@@ -1,10 +1,17 @@
 package com.myapp.springbootpetclinicpractice.model;
 
+import lombok.*;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Table(name = "vets")
 public class Vet extends Person{
 

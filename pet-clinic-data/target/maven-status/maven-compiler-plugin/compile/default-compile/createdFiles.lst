@@ -1,14 +1,18 @@
 com\myapp\springbootpetclinicpractice\model\PetType.class
+com\myapp\springbootpetclinicpractice\model\Specialty$SpecialtyBuilder.class
 com\myapp\springbootpetclinicpractice\service\map\AbstractMapService.class
 com\myapp\springbootpetclinicpractice\service\map\VisitServiceMap.class
 com\myapp\springbootpetclinicpractice\model\Owner.class
 com\myapp\springbootpetclinicpractice\model\Pet.class
+com\myapp\springbootpetclinicpractice\model\Vet$VetBuilder.class
 com\myapp\springbootpetclinicpractice\repositories\PetTypeRepository.class
 com\myapp\springbootpetclinicpractice\repositories\SpecialtyRepository.class
 com\myapp\springbootpetclinicpractice\service\map\PetServiceMap.class
+com\myapp\springbootpetclinicpractice\model\PetType$PetTypeBuilder.class
 com\myapp\springbootpetclinicpractice\model\Visit.class
 com\myapp\springbootpetclinicpractice\service\springdatajpa\OwnerSDJpaService.class
 com\myapp\springbootpetclinicpractice\model\Person.class
+com\myapp\springbootpetclinicpractice\model\Pet$PetBuilder.class
 com\myapp\springbootpetclinicpractice\service\map\PetTypeServiceMap.class
 com\myapp\springbootpetclinicpractice\service\springdatajpa\VisitSDJpaService.class
 com\myapp\springbootpetclinicpractice\service\map\VetServiceMap.class
@@ -20,6 +24,7 @@ com\myapp\springbootpetclinicpractice\model\Vet.class
 com\myapp\springbootpetclinicpractice\service\map\SpecialtyServiceMap.class
 com\myapp\springbootpetclinicpractice\service\springdatajpa\SpecialtySDJpaService.class
 com\myapp\springbootpetclinicpractice\service\OwnerService.class
+com\myapp\springbootpetclinicpractice\model\Owner$OwnerBuilder.class
 com\myapp\springbootpetclinicpractice\service\PetService.class
 com\myapp\springbootpetclinicpractice\service\springdatajpa\PetTypeSDJpaService.class
 com\myapp\springbootpetclinicpractice\service\PetTypeService.class
@@ -32,3 +37,4 @@ com\myapp\springbootpetclinicpractice\service\springdatajpa\VetSDJpaService.clas
 com\myapp\springbootpetclinicpractice\service\CrudService.class
 com\myapp\springbootpetclinicpractice\repositories\VisitRepository.class
 com\myapp\springbootpetclinicpractice\repositories\PetRepository.class
+com\myapp\springbootpetclinicpractice\model\Visit$VisitBuilder.class
